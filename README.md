@@ -1,4 +1,4 @@
-# SISTEM INVENTARIS BARANG
+# SISTEM KASIR WISATA
 
 Aplikasi Sistem Inventaris Barang merupakan aplikasi untuk mengelola data inventaris, stok barang, barang masuk, dan barang keluar.
 
