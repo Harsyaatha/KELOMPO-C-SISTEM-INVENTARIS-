@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - WisataKasir</title>
+
+    <!-- CSS JQUERY EASYUI -->
+    <link rel="stylesheet"
+          href="../assets/vendor/jeasyui/themes/metro/easyui.css">
+
+    <link rel="stylesheet"
+          href="../assets/vendor/jeasyui/themes/icon.css">
+
+    <!-- CSS CUSTOM -->
+    <link rel="stylesheet"
+          href="../assets/css/login.css">
+
+    <!-- JQUERY -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+
+    <!-- JQUERY EASYUI -->
+    <script src="../assets/vendor/jeasyui/jquery.easyui.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <!-- BAGIAN KIRI -->
+        <div class="login-left">
+
+            <div class="brand">
+                <div class="brand-icon">W</div>
+                <span>WISATAKASIR</span>
+            </div>
+
+            <div class="welcome-text">
+
+                <h1>
+                    Selamat Datang
+                    <br>
+                    di WisataKasir!
+                </h1>
+
+                <p>
+                    Sistem informasi kasir wisata untuk
+                    mempermudah pengelolaan tiket,
+                    transaksi, dan pengunjung.
+                </p>
+
+            </div>
+
+            <div class="left-footer">
+                © 2026 Sistem Kasir Wisata
+            </div>
+
+        </div>
+
+
+        <!-- BAGIAN KANAN -->
+        <div class="login-right">
+
+            <div class="login-box">
+
+                <h2>Login Akun</h2>
+
+                <p class="subtitle">
+                    Silakan masukkan akun untuk melanjutkan.
+                </p>
+
+
+                <form id="formLogin">
+
+                    <!-- USERNAME -->
+                    <div class="form-group">
+
+                        <label>Username</label>
+
+                        <input
+                            id="username"
+                            class="easyui-textbox"
+                            style="width:100%;height:45px"
+                            data-options="
+                                prompt:'Masukkan username',
+                                required:true,
+                                missingMessage:'Username wajib diisi'
+                            "
+                        >
+
+                    </div>
+
+
+                    <!-- PASSWORD -->
+                    <div class="form-group">
+
+                        <label>Password</label>
+
+                        <input
+                            id="password"
+                            class="easyui-passwordbox"
+                            style="width:100%;height:45px"
+                            data-options="
+                                prompt:'Masukkan password',
+                                required:true,
+                                missingMessage:'Password wajib diisi'
+                            "
+                        >
+
+                    </div>
+
+
+                    <!-- OPTIONS -->
+                    <div class="login-options">
+
+                        <label>
+                            <input type="checkbox" id="remember">
+                            Ingat saya
+                        </label>
+
+                        <span>Administrator / Kasir</span>
+
+                    </div>
+
+
+                    <!-- BUTTON -->
+                    <a href="javascript:void(0)"
+                       id="btnLogin"
+                       class="easyui-linkbutton login-button"
+                       style="width:100%;height:45px">
+
+                        <span>Masuk ke Dashboard</span>
+
+                    </a>
+
+                </form>
+
+
+                <div class="login-bottom">
+                    WisataKasir © 2026
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="../assets/js/login.js"></script>
+
+</body>
+</html>
